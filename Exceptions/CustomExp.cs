@@ -10,22 +10,24 @@ namespace Exceptions
     {
         static void Main(string[] args)
         {
-            try
-            {
-                throw new UserNotFound("hello");
-            }
-            catch (UserNotFound e)
-            {
-                Console.WriteLine(e.Message);
-            }
-            catch(Exception e) 
-            {
-                Console.WriteLine(e.Message);
-            }
-            finally
-            {
-                Console.WriteLine("This is finally");
-            }
+            //try
+            //{
+            //    throw new UserNotFound("hello");
+            //}
+            //catch (UserNotFound e)
+            //{
+            //    Console.WriteLine(e.Message);
+            //}
+            //catch(Exception e) 
+            //{
+            //    Console.WriteLine(e.Message);
+            //}
+            //finally
+            //{
+            //    Console.WriteLine("This is finally");
+            //}
+            string s=null;
+            Console.WriteLine(s.Length);
         }
     }
 }
