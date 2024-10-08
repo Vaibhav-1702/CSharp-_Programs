@@ -26,6 +26,8 @@ namespace Delegates
             RectDelegeate rect = m1.RectArea;
             rect += m1.RectPeri;
             rect(10,20);
+            rect(20, 30);
+            rect(30, 40);
         }
     }
 }

@@ -19,28 +19,28 @@
 
 //class Program
 //{
-    
+
 //    public static List<Employee> SearchByDepartment(List<Employee> employees, string department)
 //    {
-//       // return employees.Where(emp => emp.Department == department).ToList();
+//        // return employees.Where(emp => emp.Department == department).ToList();
 
-//            List<Employee> result = new List<Employee>();  
+//        List<Employee> result = new List<Employee>();
 
-//            foreach (Employee emp in employees)
+//        foreach (Employee emp in employees)
+//        {
+//            if (emp.Department == department)
 //            {
-//                if (emp.Department == department)  
-//                {
-//                    result.Add(emp); 
-//                }
+//                result.Add(emp);
 //            }
-
-//            return result;  
 //        }
-    
+
+//        return result;
+//    }
+
 
 //    static void Main(string[] args)
 //    {
-        
+
 //        List<Employee> employees = new List<Employee>
 //        {
 //            new Employee("Vaibhav", 50000, "IT"),
@@ -56,10 +56,10 @@
 //        string depart = Console.ReadLine();
 
 
-       
+
 //        List<Employee> itEmployees = SearchByDepartment(employees, depart);
 
-       
+
 //        foreach (Employee emp in itEmployees)
 //        {
 //            Console.WriteLine($"Name: {emp.Name}, Salary: {emp.Salary}, Department: {emp.Department}");
