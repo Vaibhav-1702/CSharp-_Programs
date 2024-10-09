@@ -35,9 +35,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "Calculator\Ca
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorTest", "CalculatorTest\CalculatorTest.csproj", "{F87BE251-D140-44B2-ADA7-C79198B0D59B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Review3", "Review3\Review3.csproj", "{DF0AA6D9-F096-421F-9429-9A41EEC33D29}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Review3", "Review3\Review3.csproj", "{DF0AA6D9-F096-421F-9429-9A41EEC33D29}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegates", "Delegates\Delegates.csproj", "{EBF421BA-8DCC-40AC-80C7-9D4C4A751702}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Delegates", "Delegates\Delegates.csproj", "{EBF421BA-8DCC-40AC-80C7-9D4C4A751702}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQ", "LINQ\LINQ.csproj", "{F5A894B2-64F3-4DA2-9106-094C07FA3336}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -117,6 +119,10 @@ Global
 		{EBF421BA-8DCC-40AC-80C7-9D4C4A751702}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EBF421BA-8DCC-40AC-80C7-9D4C4A751702}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EBF421BA-8DCC-40AC-80C7-9D4C4A751702}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5A894B2-64F3-4DA2-9106-094C07FA3336}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5A894B2-64F3-4DA2-9106-094C07FA3336}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5A894B2-64F3-4DA2-9106-094C07FA3336}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5A894B2-64F3-4DA2-9106-094C07FA3336}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
