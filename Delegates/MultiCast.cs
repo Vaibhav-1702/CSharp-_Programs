@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 namespace Delegates
 {
     public delegate void RectDelegeate(int width, int height);
+
     public class MultiCast
     {
         public void RectArea(int width, int height)
@@ -21,6 +22,7 @@ namespace Delegates
         static void Main(string[] args)
         {
             MultiCast m1 = new MultiCast();
+
             //RectDelegeate rect = new RectDelegeate(multiCast.RectArea);
             //rect(10, 20);
             RectDelegeate rect = m1.RectArea;
